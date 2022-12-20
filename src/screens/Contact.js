@@ -5,28 +5,11 @@ import Navbar from '../components/Navbar/Navbar'
 import { Formik } from "formik";
 import * as Yup from "yup";
 import { Link, useNavigate } from "react-router-dom";
-import { useAlert } from "../Redux/actions/useAlert";
 import { COLORS, ERROR, INPUT, BUTTONS } from "../assets/constants/theme";
 import { fb, insta, twitter } from "../assets/icons/index";
 import './Contact.css';
 
 const Contact = () => {
-  const navigate = useNavigate()
-  const { displayAlert } = useAlert();
-
-  const [loading, setloading] = useState(true)
-  const [error, seterror] = useState(false)
-  const handleAlert = () => {
-    displayAlert({
-      message: "Login Failed",
-      color: "red",
-      timeout: 5000
-    })
-  }
-
-  if (error) {
-    return "ERROR"
-  }
 
   return (<>
     <Navbar />
@@ -43,7 +26,7 @@ const Contact = () => {
                 let payload = values;
                 console.log("Logging in", payload);
                 setSubmitting(false);
-                if (true) handleAlert()
+                // if (true) handleAlert()
               }, 500);
             }}
 

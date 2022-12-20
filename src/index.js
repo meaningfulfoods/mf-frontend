@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Alert from "./assets/Alert/Alert";
 import axios from 'axios'
 
 const setupAxios = () => {
@@ -20,9 +19,6 @@ setupAxios();
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <Provider store={store}>
-      <Alert />
-      <App />
-    </Provider>
+  <App />
   // </React.StrictMode>
 );
