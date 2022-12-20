@@ -1,0 +1,23 @@
+.divider {
+  position: absolute;
+  height: 400px;
+  padding: 0px;
+  width: 0px;
+  border: 1px solid #000000;
+}
+.contactIcons{
+  height: 25px;
+  width: 25px;
+  padding-right: 8px;
+}
+
+ @media (max-width: 640px) {
+  .contactdetailcard {
+    display: none;
+  }
+}
+
+.labelDetail{
+  font-size: 14px;
+  padding: 10px 0px 20px 0px;
+}

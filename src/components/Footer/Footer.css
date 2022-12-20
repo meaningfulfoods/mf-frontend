@@ -1,0 +1,22 @@
+.footerSection{
+  flex: 10%;
+}
+.footerHeader{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: center;
+}
+.footerHeaderItem{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

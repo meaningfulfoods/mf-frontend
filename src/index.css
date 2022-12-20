@@ -1,0 +1,77 @@
+/* REMOVE DEFAULT CSS */
+
+html,body {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
+  margin: 0;
+}
+
+p,
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBAL */
+.gcontainer {
+  background-color: white;
+}
+
+.gcard {
+  display: block;
+  border: hidden;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); */
+}
+
+input.error {
+  border-color: #FF0000;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.gforgotpass {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+/* .gbtn1 {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: purple;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  min-width: 5rem;
+  cursor: pointer;
+} */
+.gbtn1 {
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  min-width: 5rem;
+  cursor: pointer;
+}
+
+.gbtncross {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
